@@ -476,6 +476,7 @@ PRODUCT_PACKAGES += \
     android.hardware.secure_element@1.0 \
     librmnetctl \
     libxml2 \
+    CarrierConfigOverlay \
     libprotobuf-cpp-full
 
 # Sensors
