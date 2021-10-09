@@ -30,6 +30,8 @@ dev.pm.dyn_samplingrate=1
 persist.demo.hdmirotationlock=false
 debug.sf.recomputecrop=0
 
+persist.sys.fflag.override.settings_provider_model=false
+
 # system prop for UBWC
 vendor.video.disable.ubwc=1
 
