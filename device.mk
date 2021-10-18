@@ -441,6 +441,10 @@ PRODUCT_ODM_PROPERTIES += \
 PRODUCT_PACKAGES += \
     libjson
 
+PRODUCT_COPY_FILES += \
+    system/core/libprocessgroup/profiles/cgroups_28.json:$(TARGET_COPY_OUT_VENDOR)/etc/cgroups.json \
+    system/core/libprocessgroup/profiles/task_profiles_28.json:$(TARGET_COPY_OUT_VENDOR)/etc/task_profiles.json
+
 # Ramdisk
 PRODUCT_PACKAGES += \
     fstab.qcom \
