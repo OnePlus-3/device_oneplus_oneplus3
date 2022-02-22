@@ -211,3 +211,7 @@ persist.dbg.wfc_avail_ovr=1
 # SoC
 ro.soc.manufacturer=Qualcomm
 ro.soc.model=MSM8996
+
+# Temporary hack
+ro.kernel.ebpf.supported=false
+
