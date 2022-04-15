@@ -157,6 +157,9 @@ vendor/lib/libqomx_jpegenc_pipe.so
 vendor/lib/libqomx_jpegenc.so
 vendor/lib/libSonyIMX298PdafLibrary.so
 
+# Camera - OnePlus3-user-9-PKQ1.181203.001-1911042107-release-keys
+lib64/libcameraservice.so
+
 # Camera actuators
 vendor/lib/libactuator_rohm_bu63165gwl.so
 
