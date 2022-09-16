@@ -78,6 +78,9 @@ media.aac_51_output_enabled=true
 ro.vendor.use_data_netmgrd=true
 persist.vendor.data.mode=concurrent
 
+# Network manager
+ro.telephony.iwlan_operation_mode=legacy
+
 # NFC
 ro.hardware.nfc_nci=nqx.default
 vendor.qti.nfc.chipid=0x51
