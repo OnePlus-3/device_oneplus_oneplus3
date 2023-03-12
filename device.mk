@@ -281,6 +281,7 @@ PRODUCT_PACKAGES += \
     libgnss \
     libgnsspps \
     libsensorndkbridge \
+    android.hardware.gnss@1.0 \
     android.hardware.gnss@1.0.vendor \
     android.hardware.gnss@1.0-impl-qti
 
@@ -406,7 +407,8 @@ PRODUCT_PACKAGES += \
     libOmxQcelp13Enc \
     libOmxVdec \
     libOmxVenc \
-    libstagefrighthw
+    libstagefrighthw \
+    android.hardware.media.c2@1.0.vendor
 
 # Power
 PRODUCT_PACKAGES += \
@@ -472,6 +474,8 @@ PRODUCT_PACKAGES += \
 
 # RIL
 PRODUCT_PACKAGES += \
+    android.hardware.radio@1.1 \
+    android.hardware.radio@1.1.vendor \
     android.hardware.radio@1.4 \
     android.hardware.radio@1.4.vendor \
     android.hardware.radio.config@1.0 \
@@ -486,7 +490,8 @@ PRODUCT_PACKAGES += \
 # Sensors
 PRODUCT_PACKAGES += \
     android.hardware.sensors@1.0-impl \
-    android.hardware.sensors@1.0-service
+    android.hardware.sensors@1.0-service \
+    android.frameworks.sensorservice@1.0.vendor
 
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.vendor.sensors.smd=false
@@ -568,7 +573,8 @@ PRODUCT_PACKAGES += \
     wifilogd \
     wpa_supplicant \
     wpa_supplicant.conf \
-    android.hardware.wifi@1.0-service
+    android.hardware.wifi@1.0-service \
+    android.hardware.wifi@1.5.vendor
 
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/wifi/p2p_supplicant_overlay.conf:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/p2p_supplicant_overlay.conf \
