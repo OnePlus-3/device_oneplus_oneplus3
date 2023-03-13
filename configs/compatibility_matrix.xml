@@ -30,6 +30,11 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
         <name>android.frameworks.schedulerservice</name>
         <fqname>@1.0::ISchedulingPolicyService/default</fqname>
     </hal>
+    <hal format="hidl" optional="true">
+        <name>android.hardware.media.c2</name>
+        <fqname>@1.0-2::IComponentStore/software</fqname>
+        <fqname>@1.0-2::IComponentStore/default</fqname>
+    </hal>
     <hal format="hidl" optional="false">
         <name>android.frameworks.sensorservice</name>
         <fqname>@1.0::ISensorManager/default</fqname>

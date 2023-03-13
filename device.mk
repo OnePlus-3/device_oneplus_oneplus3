@@ -408,7 +408,7 @@ PRODUCT_PACKAGES += \
     libOmxVdec \
     libOmxVenc \
     libstagefrighthw \
-    android.hardware.media.c2@1.0.vendor
+    android.hardware.media.c2@1.2.vendor
 
 # Power
 PRODUCT_PACKAGES += \
