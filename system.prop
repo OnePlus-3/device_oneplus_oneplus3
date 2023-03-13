@@ -38,9 +38,6 @@ ro.sf.blurs_are_expensive=1
 vidc.enc.dcvs.extra-buff-count=2
 vendor.camera.hal1.packagelist=com.intsig.camscanner
 
-# Charger
-ro.charger.enable_suspend=true
-
 # CNE
 persist.vendor.cne.feature=1
 
