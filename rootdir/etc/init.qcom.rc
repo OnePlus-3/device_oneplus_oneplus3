@@ -676,9 +676,8 @@ service mlid /vendor/bin/mlid
     group gps
     socket mlid stream 0666 gps gps
 
-service loc_launcher /system/vendor/bin/loc_launcher
+service loc_launcher /vendor/bin/loc_launcher
     class late_start
-    user gps
     group gps
     writepid /dev/cpuset/system-background/tasks
 
