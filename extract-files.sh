@@ -55,6 +55,17 @@ fi
 
 function blob_fixup() {
     case "${1}" in
+        system_ext/etc/init/dpmd.rc)
+            sed -i "s/\/system\/product\/bin\//\/system\/system_ext\/bin\//g" "${2}"
+            ;;
+        system_ext/etc/permissions/com.qti.dpmframework.xml)
+            ;&
+        system_ext/etc/permissions/dpmapi.xml)
+            sed -i "s/\/system\/product\/framework\//\/system\/system_ext\/framework\//g" "${2}"
+            ;;
+        system_ext/lib64/libdpmframework.so)
+            sed -i "s/libhidltransport.so/libcutils-v29.so\x00\x00\x00/" "${2}"
+            ;;
         vendor/lib/libwvhidl.so)
             "${PATCHELF}" --replace-needed "libprotobuf-cpp-lite.so" "libprotobuf-cpp-lite-v28.so" "${2}"
             ;;
